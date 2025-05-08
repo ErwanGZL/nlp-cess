@@ -1,2 +1,2 @@
-# nlp-stories-character-id
+# NLP CESS Pipeline
 Character Extraction and Summarization in Stories
