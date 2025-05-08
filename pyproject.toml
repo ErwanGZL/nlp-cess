@@ -1,0 +1,16 @@
+[project]
+name = "nlp-cess-pipeline"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastcoref>=2.1.6",
+    "flair>=0.15.1",
+    "fuzzywuzzy>=0.18.0",
+    "nltk>=3.9.1",
+    "ollama>=0.4.8",
+    "pip>=25.1.1",
+    "python-levenshtein>=0.27.1",
+    "unidecode>=1.4.0",
+]
