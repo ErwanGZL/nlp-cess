@@ -6,6 +6,8 @@ from named_entity import NamedEntity
 
 
 def ollama_gen(prompt: str, model="mistral"):
+    ollama.pull(model)
+
     response = ollama.generate(
         model=model,
         prompt=prompt,
